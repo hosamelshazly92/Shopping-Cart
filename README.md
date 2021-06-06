@@ -1,2 +1,2 @@
 # Shopping-Cart
-Adding and removing items to the shopping list
+Adding and removing items from the shopping list
