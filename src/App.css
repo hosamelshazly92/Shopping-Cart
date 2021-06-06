@@ -1,10 +1,47 @@
+body {
+  padding: 0 2rem;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+  margin-top: 32px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+header {
+  background-color: rgb(242, 242, 242);
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+
+header div:nth-child(1) {
+  float: left;
+}
+
+header div:nth-child(2) {
+  float: right;
+  margin-top: 12px;
+}
+
+header div:nth-child(3) {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+header div:nth-child(2) a:nth-child(1) {
+  margin-right: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
