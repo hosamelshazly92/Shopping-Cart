@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Basket(props) {
     return (
-        <div>Basket</div>
+        <aside>
+            <h2>Cart</h2>
+        </aside>
     );
 }

@@ -12,11 +12,26 @@ body {
   pointer-events: none;
 }
 
-header {
-  background-color: rgb(242, 242, 242);
+header, 
+main, 
+aside {
+  background-color: rgba(242, 242, 242, 0.2);
   border: 1px dashed #ccc;
   border-radius: 8px;
-  padding: 1rem 2rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.row {
+  display: flex;
+}
+
+main {
+  flex-grow: 7;
+}
+
+aside {
+  flex-grow: 3;
 }
 
 header div:nth-child(1) {
@@ -36,7 +51,8 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1,
+h2 {
   margin: 0;
 }
 
