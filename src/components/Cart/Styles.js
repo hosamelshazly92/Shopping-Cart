@@ -49,3 +49,11 @@ export const CartSideBar = styled.div`
         right: -400px;
     }
 `;
+
+export const EmptyCart = styled.div`
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+`;
