@@ -12,54 +12,6 @@ body {
   pointer-events: none;
 }
 
-header, 
-main, 
-aside {
-  background-color: rgba(242, 242, 242, 0.2);
-  border: 1px dashed #ccc;
-  border-radius: 8px;
-  padding: 2rem;
-  margin: 1rem;
-}
-
-.row {
-  display: flex;
-}
-
-main {
-  flex-grow: 7;
-}
-
-aside {
-  flex-grow: 3;
-}
-
-header div:nth-child(1) {
-  float: left;
-}
-
-header div:nth-child(2) {
-  float: right;
-  margin-top: 12px;
-}
-
-header div:nth-child(3) {
-  clear: both;
-}
-
-a {
-  text-decoration: none;
-}
-
-h1,
-h2 {
-  margin: 0;
-}
-
-header div:nth-child(2) a:nth-child(1) {
-  margin-right: 2rem;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
