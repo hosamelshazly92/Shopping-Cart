@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import GlobalStyles from "./GlobalStyles";
-import { NavBar } from "./AppStyles";
+import { NavBar, Overlay, MainContainer } from "./AppStyles";
 import Cart from './components/Cart/index';
 
 function App() {
@@ -16,6 +16,10 @@ function App() {
           setToggle={setToggle}
         />
       </NavBar>
+
+      <MainContainer>
+        { toggle && <Overlay /> }
+      </MainContainer>
     </>
   );
 }
