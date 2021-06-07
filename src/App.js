@@ -1,13 +1,16 @@
-import React from 'react';
-import './App.css';
-import GlobalStyles from './GlobalStyles';
-import { NavBar } from './AppStyles';
+import React from "react";
+import "./App.css";
+import GlobalStyles from "./GlobalStyles";
+import { NavBar } from "./AppStyles";
+import Cart from './components/Cart/index';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <NavBar>Hello React</NavBar>
+      <NavBar>
+        <Cart />
+      </NavBar>
     </>
   );
 }
