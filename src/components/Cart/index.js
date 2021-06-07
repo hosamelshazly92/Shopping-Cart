@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { Wrapper, Icon, CartCount, CartSideBar, EmptyCart } from './Styles';
+import { Wrapper, Icon, CartCount, CartSideBar, EmptyCart, SideBarHeader } from './Styles';
 import useOnClickOutside from '../../hooks/useOnClickOutside';
 
 export default function Cart({ toggle, setToggle }) {
@@ -15,6 +15,7 @@ export default function Cart({ toggle, setToggle }) {
     </Wrapper>
 
     <CartSideBar ref={ $sideBarRef } className={ toggle ? 'expand' : 'shrink' }>
+        <SideBarHeader>Shopping Cart</SideBarHeader>
         <EmptyCart>Empty Cart</EmptyCart>
     </CartSideBar>
   </>;
